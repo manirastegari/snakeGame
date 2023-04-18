@@ -1,5 +1,5 @@
 import { getInputDirection } from "./input.js";
-
+// Snake speed will change the movement speed of the worm
 export const SNAKE_SPEED = 8;
 const snakeBody = [{ x: 11, y: 11}];
 let newSegments = 0;
